@@ -1,0 +1,73 @@
+<!--  
+    Louis Vranderick Matricule:20211092
+    Kevin Fuss Matricule:20246906
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlineShop - Produit</title>
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"> 
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <a href="./index.html" class="header-left">
+      <img class="navlogo" alt="logo" src="./assets/img/logo.svg" title="Accueil">
+      </a>
+      <nav2>
+        <ul>
+          <li class="navitem"><a class="navitem2" href="./index.html">Accueil</a></li>
+          <li class="navitem"><a class="navitem2" href="./products.html">Produits</a></li>
+          <li class="navitem"><a class="navitem2" href="./contact.html">Contact</a></li>
+          <li class="navitem">
+            <a class="shopping-cart" href="./shopping-cart.html" title="panier">
+            <span class="fa-stack fa-lg"> 
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i> 
+            <i class="fa fa-shopping-cart fa-stack-1x"></i> 
+            </span> 
+            <div class="count">
+            <span>3</span>
+            </div>
+            </a>
+            </a></li>
+        </ul>
+      </nav>
+    </header>
+  <main>
+    <article>
+      <div class="productleft">
+        <h1>Manette Xbox 360</h1>
+        <img alt="Manette Xbox 360" src="./assets/img/xbox-controller.png">
+      </div>
+      <div class="productright">
+      <section>
+        <h2>Description</h2>
+        <p>Manette pouvant être branchée à une console Xbox 360 et un PC. Cette manette vous permettra de jouer à vos jeux vidéo préférés. 
+          De plus, cette manette est sans fil et comporte un port pour casque d'écoute.</p>
+      </section>
+      <section>
+        <h2>Caractéristiques</h2>
+          <ul>
+            <li>Manette sans fil 2.4GHz avec adapteur USB</li>
+            <li>Compacte et ergonomique</li>
+            <li>Port pour casque d'écoute pour Xbox Live</li>
+          </ul>
+      </section>
+        <hr>
+        <form>
+          <label for="product-quantity">Quantité:</label>
+          <input class="input" type="number" value="1" min="1" id="product-quantity">
+          <button class = "btn" title="Ajouter au panier" type="submit">Ajouter</button>
+        </form>
+        <p>Prix: <strong>29,99&thinsp;$</strong></p>
+      </div>
+  </main>
+  </div>
+  <footer>
+    <p>Louis Vranderick Matricule:20211092 et Kevin Fuss Matricule:20246906</p>
+  </footer>
+</body>
+</html>
