@@ -8,46 +8,65 @@
 <head>
   <meta charset="UTF-8">
   <title>OnlineShop - Contact</title>
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"> 
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-  <header>
-    <a href="./index.html">
-      <img alt="logo" src="./assets/img/logo.svg" title="Accueil">
-    </a>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Accueil</a></li>
-        <li><a href="./products.html">Produits</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./shopping-cart.html">Panier</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <article>
-      <h1>Contact</h1>
-      <p>Si vous souhaitez contacter <em>OnlineShop</em>, veuillez utiliser les coordonnées suivantes.</p>
-      <section>
-        <h2>Téléphone</h2>
-        <a href="tel:5143404711">(514) 340-4711</a>
-      </section>
-      <section>
-        <h2>Adresse</h2>
-        <p>
-          2900, boul. Édouard-Montpetit<br>
-          Montréal (Québec)<br>
-          H3T 1J4
-        </p>
-      </section>
-      <section>
-        <h2>Adresse courriel</h2>
-        <a href="mailto:onlineshop@polymtl.ca">onlineshop@polymtl.ca</a>
-      </section>
-    </article>
-  </main>
+  <div class="wrapper">
+    <header>
+      <div class="contenu">
+      <a href="./index.html" class="header-left">
+      <img class="navlogo" alt="logo" src="./assets/img/logo.svg" title="Accueil">
+      </a>
+      <nav>
+        <ul>
+          <li class="navitem"><a class="navitem2" href="./index.html">Accueil</a></li>
+          <li class="navitem"><a class="navitem2" href="./products.html">Produits</a></li>
+          <li class="navitem"><a class="navitem2 active" href="./contact.html">Contact</a></li>
+          <li class="navitem">
+            <a class="shopping-cart" href="./shopping-cart.html" title="panier">
+            <span class="fa-stack fa-lg"> 
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i> 
+            <i class="fa fa-shopping-cart fa-stack-1x"></i> 
+            </span> 
+            <div class="count">
+            <span>3</span>
+            </div>
+            </a>
+            </a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <main>
+      <article>
+        <h1>Contact</h1>
+        <p>Si vous souhaitez contacter <em>OnlineShop</em>, veuillez utiliser les coordonnées suivantes.</p>
+        <div class="container">
+          <div class="contactinfo">
+            <section class="icons">
+              <br><i class="fa fa-4x fa-solid fa-mobile-alt"></i><br>
+              <br><a href="tel:5143404711">(514) 340-4711</a>
+            </section>
+            <section class="icons">
+              <br><i class="fa fa-4x fa-solid fa-map-marker-alt"></i>
+              <br><p>
+                2900, boul. Édouard-Montpetit<br>
+                Montréal (Québec)<br>
+                H3T 1J4
+              </p>
+            </section>
+            <section class="icons">
+              <br><i class="fa fa-4x fa-solid fa-envelope"></i><br>
+              <br><a href="mailto:onlineshop@polymtl.ca">onlineshop@polymtl.ca</a>
+            </section>
+          </div>
+        </div> 
+      </article>  
+    </main>
+  </div> 
   <footer>
-    <p>Louis Vranderick Matricule:20211092</p><br>
-    <p>Kevin Fuss Matricule:20246906</p>
+    <p> par Louis Vranderick Matricule:20211092 et Kevin Fuss Matricule:20246906</p>
   </footer>
 </body>
 </html>

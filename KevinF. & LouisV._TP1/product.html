@@ -14,10 +14,11 @@
 <body>
   <div class="wrapper">
     <header>
+      <div class="contenu">
       <a href="./index.html" class="header-left">
       <img class="navlogo" alt="logo" src="./assets/img/logo.svg" title="Accueil">
       </a>
-      <nav2>
+      <nav>
         <ul>
           <li class="navitem"><a class="navitem2" href="./index.html">Accueil</a></li>
           <li class="navitem"><a class="navitem2" href="./products.html">Produits</a></li>
@@ -35,10 +36,11 @@
             </a></li>
         </ul>
       </nav>
+    </div>
     </header>
   <main>
     <div class="gridcontent"> 
-        <div  class="product">
+        <div>
           <h1>Manette Xbox 360</h1>
           <img alt="Manette Xbox 360" src="./assets/img/xbox-controller.png">
       </div>
@@ -57,15 +59,17 @@
             </ul>
         </section>
           <hr>
+        <div class="formprice">
+          <p>Prix: <strong>29,99&thinsp;$</strong></p>
           <form>
             <label for="product-quantity">Quantité:</label>
             <input class="input" type="number" value="1" min="1" id="product-quantity">
-            <button class = "btn" title="Ajouter au panier" type="submit"> 
+            <button class = "btn" title="Ajouter au panier" type="submit" value="1"> 
               <i class="fa fa-cart-plus"></i>
               Ajouter
             </button>
           </form>
-          <p>Prix: <strong>29,99&thinsp;$</strong></p>
+        </div>
         </div>
     </div>
   </main>
