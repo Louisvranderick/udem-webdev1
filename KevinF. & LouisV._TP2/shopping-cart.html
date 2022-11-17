@@ -1,0 +1,80 @@
+
+<!--  
+    Louis Vranderick Matricule:20211092
+    Kevin Fuss Matricule:20246906
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlineShop - Panier</title>
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"> 
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+  <header>
+    <div class="contenu">
+    <a href="./index.html" class="header-left">
+    <img class="navlogo" alt="logo" src="./assets/img/logo.svg" title="Accueil">
+    </a>
+    <nav>
+      <ul>
+      	<li class="navitem"><a class="navitem2" href="./index.html">Accueil</a></li>
+      	<li class="navitem"><a class="navitem2" href="./products.html">Produits</a></li>
+      	<li class="navitem"><a class="navitem2" href="./contact.html">Contact</a></li>
+      	<li class="navitem">
+          <a class="shopping-cart" href="./shopping-cart.html" title="panier">
+          <span class="fa-stack fa-lg"> 
+          <i class="fa fa-circle fa-stack-2x fa-inverse"></i> 
+          <i class="fa fa-shopping-cart fa-stack-1x"></i> 
+          </span> 
+          <div class="count">
+          <span>3</span>
+          </div>
+          </a>
+          </a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+  <main>
+    <article>
+      <h1 class="shopping-cart-h1">Panier</h1>
+      <div class="grid-container-h solid">
+        <div></div>
+        <div class="grid-item-h">Produit</div>
+        <div class="grid-item-h">Prix unitaire</div>
+        <div class="grid-item-h">Quantite</div>
+        <div class="grid-item-h" id="grid-item-5">Prix</div>
+    </div>
+    <div class="grid-container-b">
+        <div class="grid-item-button"><button class="roundbutton">X</button></div>
+        <div class="grid-item-b"><a href="./product.html" class="product-cart">Console Wii</a></div>
+        <div class="grid-item-b">199,99&thinsp;$</div>
+        <div class="grid-item-button"><button class="roundbutton">-</button> 1 <button class="roundbutton">+</button></div>
+        <div class="grid-item-b" id="grid-item-5">199,99&thinsp;$</div>
+       
+        <div class="grid-item-button"><button class="roundbutton">X</button></div>
+        <div class="grid-item-b"><a href="./product.html" class="product-cart">Manette Xbox 360</a></div>
+        <div class="grid-item-b">29,99&thinsp;$</div>
+        <div class="grid-item-button"><button class="roundbutton">-</button> 2 <button class="roundbutton">+</button></div>
+        <div class="grid-item-b" id="grid-item-5">59,98&thinsp;$</div>
+        
+        <div class="solid grid-item-button"><button class="roundbutton">X</button></div>
+        <div class="solid grid-item-b"><a href="./product.html" class="product-cart">Moniteur 19"</a></div>
+        <div class="solid grid-item-b">149,99&thinsp;$</div>
+        <div class="solid grid-item-button"><button class="roundbutton">-</button> 3 <button class="roundbutton">+</button></div>
+        <div class="solid grid-item-b" id="grid-item-5">449,97&thinsp;$</div>
+    </div>
+      <p class="tot">Total: <strong>704,94&thinsp;$</strong></p>
+      <button class="btn">Vider le panier</button>
+      <a href="./order.html"><button class="btn" id="order-btn">Commander <b>>></b></button></a>
+    </article>
+  </main>
+</div>
+  <footer>
+    <p>par Louis Vranderick Matricule:20211092 et Kevin Fuss Matricule:20246906</p><br>
+  </footer>
+</body>
+</html>
